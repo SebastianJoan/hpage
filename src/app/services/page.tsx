@@ -1,7 +1,7 @@
-import { Footer, Navbar } from '@/components'
+import { Footer, Navbar, WhatsAppBtn } from '@/components'
 import React from 'react'
 
-import service_image from '../../../public/trailer-trucks-driving-road-surrounded-by-beautiful-green-trees.jpg'
+import service_image from '../../../public/Backgrounds/pexels-kevinbidwell-2348359.jpg';
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -53,8 +53,8 @@ export default function page() {
     <main className='w-full h-screen overflow-hidden overflow-y-auto bg-[#eeeeee]'>
       <Navbar/>
       <div className="relative w-full h-full">
-        <div className="absolute inset-0 bg-black opacity-60" ></div>
-        <div className="absolute inset-0 flex items-center justify-center text-center">
+        <div className="absolute inset-0 bg-black opacity-60 z-10" ></div>
+        <div className="absolute inset-0 flex items-center justify-center z-10 text-center">
           <div className='px-4'>
             <h1 className="text-xl md:text-5xl font-bold mb-4 text-white">
               Conduzca con seguridad <br /> asesorado por nosotros
@@ -104,28 +104,22 @@ export default function page() {
         </div>
       </div>
       <br />
-      <div className='w-full h-auto flex flex-col bg-blue-500 md:flex-row justify-between items-center  justify-items-center  px-4 md:px-16 lg:px-32'>
-        <div className='w-full md:w-1/2 h-auto flex flex-col justify-around items-center gap-3 p-4 md:p-8 '>
-          <h1 className='text-2xl md:text-3xl font-bold text-center text-gray-900 mt-6'>
-            Polizas 
-          </h1>
-          <span className='text-base md:text-lg text-black'>
-            TPA SERVICES LLC nace de la necesidad de muchos comerciantes de cargas en los Estados Unidos, quienes deben buscar en muchos lugares para obtener un buen servicio, 
-            aquí encontrarás en un solo lugar y en pocos clics todo lo que buscas. <br /> TPA SERVICES LLC nace de la necesidad de muchos comerciantes de cargas en los Estados Unidos, quienes deben buscar  
-          </span>
-        </div>
-        
+      <div className='w-full h-auto flex flex-col bg-blue-500 gap-3 py-12 px-4 md:px-16 lg:px-32'>
+        {
+          ListCards ? 
+            ListCards.map((data, index) => (
+              <div key={index} className='w-full h-auto px-4 py-2 bg-white rounded-md shadow-sm shadow-black flex flex-col '>
+                <h3 className='font-bold'>{data.Tittle}</h3>
+                <span>{data.Descripcion}</span>
+              </div>
+            )
+          ) : null
+         }        
       </div>
       <br />
-      <div className='w-full h-auto flex flex-col justify-start items-start  justify-items-center px-4 md:px-16'>
-        <h3 className='text-2xl md:text-3xl font-bold text-center text-gray-900 mt-6'>
-          Servicios
-        </h3>
-        <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-          
-        </div>
-      </div>
-      <br />
+      <WhatsAppBtn
+        phone='3028319211'
+      />  
       <Footer/>
     </main>
   )

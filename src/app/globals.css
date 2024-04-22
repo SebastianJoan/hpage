@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
+@font-face{
+    font-family: 'OleoScriptBold';
+    src: url('/public/fonts/OleoScript-Bold.ttf')format('ttf');
+}
+
+@font-face{
+    font-family: 'OleoScriptRegular';
+    src: url('/public/fonts/OleoScript-Regular.ttf')format('ttf');
+}
