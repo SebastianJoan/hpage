@@ -35,7 +35,7 @@ export default function Footer() {
             <hr className="my-6 border-gray-200 md:my-8 dark:border-blue-500 h-2" />  
             <div className="sm:flex sm:items-center sm:justify-center">  
                 <div className="flex justify-around items-center gap-4 hover:cursor-pointer">
-                    <Link target='blanck' href={`https://www.facebook.com/profile.php?id=61554658362154`}>
+                    <Link target='blanck' href={``}>
                         <Image 
                             src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" 
                             width="30" 
@@ -43,7 +43,7 @@ export default function Footer() {
                             alt="fb" 
                         />
                     </Link>
-                    <Link target='blanck' href={`https://twitter.com/Overwatch_Col`}>
+                    <Link target='blanck' href={``}>
                         <Image 
                             src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg" 
                             width="30" 
@@ -51,7 +51,7 @@ export default function Footer() {
                             alt="tw" 
                             />
                     </Link>
-                    <Link target='blanck' href={`https://www.instagram.com/overwatch_col/`}>
+                    <Link target='blanck' href={``}>
                         <Image 
                             src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" 
                             width="30" 
@@ -59,7 +59,7 @@ export default function Footer() {
                             alt="inst"
                         />
                     </Link>
-                    <Link target='blanck' href={`https://www.linkedin.com/company/overwatch_colombia/`} >
+                    <Link target='blanck' href={``} >
                         <Image 
                             src="https://www.svgrepo.com/show/28145/linkedin.svg" 
                             width="30" 
