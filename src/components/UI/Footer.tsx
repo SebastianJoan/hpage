@@ -9,10 +9,10 @@ export default function Footer() {
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-3">
                 <div>
                     <p className="font-semibold text-gray-800">Quienes Somos?</p>
-                    <div className="flex flex-col items-start mt-5 space-y-2">
-                        <Link href={``} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Inicio</Link>
-                        <Link href={``} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Quienes Somos?</Link>
-                        <Link href={``} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Mision y vision</Link>
+                    <div className="flex flex-col items-start mt-5 space-y-2"> 
+                        <Link href={`/busines/#quienessomos`} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Quienes Somos?</Link>
+                        <Link href={`/busines/#mision`} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Mision</Link>
+                        <Link href={`/busines/#vision`} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Vision</Link>
                     </div>
                 </div>
                 <div>
@@ -26,9 +26,18 @@ export default function Footer() {
                 <div>
                     <p className="font-semibold text-gray-800">Servicios</p>
                     <div className="flex flex-col items-start mt-5 space-y-2">
-                        <p className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Pólizas comerciales</p>
-                        <p className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Permisos estatales y federales</p>
-                        <p className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Asesoramiento y gestión</p>
+                    <Link href={`/services/#polisaa`} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Pólizas de Salud</Link>
+                        <Link href={`/services/#polisab`} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Pólizas Comerciales</Link>
+                        <Link href={`/services/#polisac`} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Pólizas de Vida</Link>
+                    </div>
+                </div>
+                <div>
+                    <p className="font-semibold text-gray-800">Contacto</p>
+                    <p className="font-semibold text-gray-800">Java Lifewealth Group LLC</p>
+                    <div className="flex flex-col items-start mt-5 space-y-2">
+                        <Link href={`/services/#polisaa`} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">corporationjjh@gmail.com</Link>
+                        <Link href={`/services/#polisab`} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">2147648953</Link>
+                        <Link href={`/services/#polisac`} className="text-gray-600 transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">(737) 325-1288</Link>
                     </div>
                 </div>
             </div>

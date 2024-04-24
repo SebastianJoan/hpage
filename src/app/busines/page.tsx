@@ -14,31 +14,31 @@ export default function page() {
 
   const ListCards = [{
     Tittle:"Mision",
-    Descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros arcu, dictum eget nulla vestibulum, vestibulum tincidunt eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas magna arcu, cursus vitae quam in, mattis volutpat massa. Vivamus fermentum augue vitae risus sagittis, eu laoreet leo gravida. Praesent condimentum lectus a magna ullamcorper auctor. Mauris consequat scelerisque elementum. Integer in consectetur mauris. Nullam eu dolor condimentum, blandit urna quis, imperdiet risus. Phasellus elementum condimentum neque, sit amet efficitur ipsum luctus ut. Nunc rhoncus magna vitae lacus molestie, ac dapibus odio dapibus. Donec eleifend metus sit amet turpis accumsan, vel semper odio elementum. Sed elementum imperdiet convallis. Nunc ac mauris quis diam sagittis pharetra. Suspendisse id congue odio, eu vulputate nulla."
+    Descripcion:"Brindar a cada cliente soluciones coherentes, integrales y responsables que aporten valor y contribuyan con su éxito, logrando un alto nivel de resultados, crecimiento, satisfacción y beneficios. Tenemos claro que no podemos nnca parar de crecer por que cada vez que cumplimos una meta llega un reto nuevo."
   },{
     Tittle:"Vision",
-    Descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros arcu, dictum eget nulla vestibulum, vestibulum tincidunt eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas magna arcu, cursus vitae quam in, mattis volutpat massa. Vivamus fermentum augue vitae risus sagittis, eu laoreet leo gravida. Praesent condimentum lectus a magna ullamcorper auctor. Mauris consequat scelerisque elementum. Integer in consectetur mauris. Nullam eu dolor condimentum, blandit urna quis, imperdiet risus. Phasellus elementum condimentum neque, sit amet efficitur ipsum luctus ut. Nunc rhoncus magna vitae lacus molestie, ac dapibus odio dapibus. Donec eleifend metus sit amet turpis accumsan, vel semper odio elementum. Sed elementum imperdiet convallis. Nunc ac mauris quis diam sagittis pharetra. Suspendisse id congue odio, eu vulputate nulla."
+    Descripcion:" Nos visionados como la primera opción para nuestros clientes. Por precio y servicio. Trabajamos en pro de construir un crecimiento mutuo y recíproco,  en nuestro personal capacitado, clientes satisfechos y empresa número uno en el mercado que desarrollamos y los que innovemos. Hacer de nuestros clientes una sola familia que trabaja en equipo en busca del éxito y crecimiento."
   }]
 
   const ListCorporativeValues = [{
     Tittle:"Integridad",
-    Descripcion:"Actuar con honestidad, ética y transparencia en todas las interacciones y decisiones empresariales, manteniendo la coherencia entre palabras y acciones.",
+    Descripcion:"Nos comprometemos a actuar con honestidad, ética y transparencia en todas nuestras interacciones y decisiones empresariales, manteniendo la coherencia entre lo que decimos y lo que hacemos.",
     Image:Integridad,
   },{
     Tittle:"Innovación",
-    Descripcion:"Fomentar la creatividad y la búsqueda constante de nuevas ideas y soluciones para mejorar productos, servicios y procesos, adaptándose a un entorno empresarial en constante ",
+    Descripcion:"Empleamos todas las herramientas tecnológicas disponibles para llevar a cabo nuestras tareas, al mismo tiempo que capacitamos a nuestro personal con diversas alternativas y estrategias. Afrontamos los desafíos sistemáticos con el objetivo de satisfacer diariamente a nuestros clientes y asegurar su felicidad y satisfacción con nuestros logros.",
     Image:Innovacion,
   },{
     Tittle:"Responsabilidad Social",
-    Descripcion:"Compromiso con el bienestar y el progreso de la sociedad, considerando el impacto de las acciones empresariales en las comunidades locales y globales, y promoviendo prácticas sostenibles y responsables. ",
+    Descripcion:"Nos comprometemos con el desarrollo de todas las comunidades, evitando la contaminación ambiental y contribuyendo al crecimiento personal de cada individuo, incluyendo colaboradores y clientes. Cada paso que damos lo hacemos de manera responsable, generando un impacto positivo en la economía, la salud y el bienestar de cada sector",
     Image:ResponsabilidadSocial,
   },{
     Tittle:"Colaboración",
-    Descripcion:"Trabajar en equipo de manera efectiva, valorando la diversidad de ideas, habilidades y perspectivas, y fomentando un ambiente de apoyo mutuo y cooperación para alcanzar objetivos comunes.",
+    Descripcion:"Valoramos el trabajo en equipo como fundamental. Nos enfocamos en los resultados colectivos, en el logro de metas tanto corporativas como individuales. Contribuimos con lo mejor de cada uno para alcanzar el desarrollo y cumplimiento esperado.",
     Image:Colaboracion,
   },{
     Tittle:"Calidad",
-    Descripcion:"Buscar la excelencia en todo lo que se hace, manteniendo altos estándares de calidad en productos, servicios y procesos, y comprometiéndose con la mejora continua y la satisfacción del cliente. ",
+    Descripcion:"Entendemos que la calidad es el fruto de un trabajo arduo y perspicaz. Por eso, nos esforzamos constantemente en generar mejoras continuas para asegurar la felicidad y tranquilidad de nuestros clientes, mostrándoles quiénes somos y hacia dónde nos dirigimos. La clave para mejorar es evitar la improvisación. Contamos con un equipo altamente capacitado y competente para mantener siempre los más altos estándares de calidad en nuestros procesos y servicios",
     Image:Calidad,
   }]
 
@@ -50,7 +50,7 @@ export default function page() {
           <div className="absolute inset-0 flex items-center justify-center text-center z-10">
             <div className='px-4'>
               <h1 className="text-xl md:text-5xl font-bold mb-4 text-white">
-                Simplifica tu búsqueda de <br /> seguros y permisos como <br /> camionero en Estados Unidos
+                Brindamos a cada cliente soluciones coherentes, integrales y responsables que aporten valor y contribuyan con su éxito
               </h1> 
             </div>
           </div>
@@ -62,13 +62,13 @@ export default function page() {
             className='w-full h-full object-cover'
           />
         </div>
-        <div className='w-full h-auto  px-4 md:px-16 lg:px-32 p-6'>
+        <div className='w-full h-auto flex flex-col gap-3 px-4 md:px-16 lg:px-32 p-6'>
           {
             ListCards ? 
               ListCards.map((data, index) => (
                 <div className='w-auto h-auto flex flex-col justify-center items-center justify-items-center' key={index}>
-                  <h3 className='font-bold'>{data.Tittle}</h3>
-                  <span>{data.Descripcion}</span>
+                  <h3 className='text-2xl md:text-3xl lg:text-5xl xl:text-7xl font-bold text-center text-blue-500 mt-6'>{data.Tittle}</h3>  
+                  <span className='mt-3 text-lg text-justify'>{data.Descripcion}</span>
                 </div>
             )) : null
           }
@@ -89,7 +89,7 @@ export default function page() {
                     </Image>
                   </div>
                   <h3 className='font-bold'>{data.Tittle}</h3>
-                  <span>{data.Descripcion}</span>
+                  <span className='text-justify'>{data.Descripcion}</span>
                 </div>
             )) : null
           }

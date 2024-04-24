@@ -19,11 +19,11 @@ export default function ServiceCard({ Nombre, Descripcion, ImageData }:Props) {
                 alt="movie.title"
             />
         </div>
-        <div className="w-full min-h-[250px] h-auto max-h[300px] flex flex-col p-4">
+        <div className="w-full h-auto flex flex-col p-4">
             <h4 className="hover:text-cyan-700 flex justify-center items-center h-[50px] text-center text-black font-bold sm:text-2xl ">
                 { Nombre }
             </h4>
-            <span className="w-full h-[170px] py-2 text-sm font-light text-black leading-relaxed">
+            <span className="w-full h-auto py-2 text-sm font-light text-black leading-relaxed">
                 { Descripcion }
             </span>
         </div>
