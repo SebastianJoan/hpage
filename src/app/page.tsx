@@ -98,9 +98,7 @@ export default function page() {
         </div>
       </div>
       <br />
-      <WhatsAppBtn
-        phone='3028319211'
-      />  
+      <WhatsAppBtn/>  
       <Footer/>
     </main>
   )
