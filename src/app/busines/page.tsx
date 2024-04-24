@@ -10,6 +10,12 @@ import ResponsabilidadSocial from '../../../public/ValoresCorporativos/social-ca
 import Colaboracion from '../../../public/ValoresCorporativos/teamwork.png'
 import Calidad from '../../../public/ValoresCorporativos/high-quality.png'
 
+
+export const metadata = {
+  title: 'Quienes Somos?',
+  description: 'Mision, Vision, Valores corporativos',
+};
+
 export default function page() {
 
   const ListCards = [{

@@ -5,6 +5,11 @@ import service_image from '../../../public/Backgrounds/pexels-kevinbidwell-23483
 import Image from 'next/image'
 import Link from 'next/link'
 
+export const metadata = {
+  title: 'Servicios',
+  description: 'Pólizas de Salud, Comerciales , de vida',
+};
+
 export default function page() {
   
   const ListaFormularios = [{
@@ -55,7 +60,7 @@ export default function page() {
     Nombre:'Pólizas Comerciales',
     Descripcion:'Las "Pólizas Comerciales" son la piedra angular para proteger el corazón de tu negocio y asegurar su continuidad en cualquier circunstancia. ¿Imagina tener la seguridad de que tu empresa está protegida ante cualquier eventualidad que pueda surgir en el camino? Con nuestras pólizas comerciales, te ofrecemos una cobertura completa que abarca desde daños materiales hasta responsabilidad civil, pasando por protección contra incendios, robos, y otros imprevistos que puedan afectar tu negocio. Además, nuestro equipo de expertos está siempre dispuesto a brindarte el asesoramiento necesario para encontrar la mejor solución adaptada a las necesidades específicas de tu empresa. Nuestro compromiso es garantizar la tranquilidad y el éxito de tu negocio, permitiéndote concentrarte en lo que realmente importa: hacer crecer tu empresa. No dejes la seguridad de tu negocio al azar, protege tu inversión con nuestras pólizas comerciales y asegura un futuro sólido y próspero para tu empresa. ¡Confía en nosotros para proteger lo que más valoras!',
   },{
-    Nombre:'Pólizas Comerciale de vida',
+    Nombre:'Pólizas de vida',
     Descripcion:'Las "Pólizas Comerciales de Vida" son mucho más que simples contratos; son el respaldo indispensable para proteger el corazón de tu negocio y el bienestar de quienes lo hacen posible: tus empleados.Imagina poder brindarles a tus colaboradores la seguridad y la tranquilidad de saber que, en caso de alguna eventualidad, sus seres queridos estarán protegidos y respaldados. Con nuestras pólizas comerciales de vida, les ofrecemos una cobertura integral que va más allá de lo ordinario, proporcionando beneficios que van desde la cobertura por fallecimiento hasta el apoyo en situaciones de invalidez y enfermedades graves. En un mundo donde la estabilidad laboral y el bienestar son cada vez más valorados, diferénciate como empleador ofreciendo a tu equipo la seguridad y el respaldo que se merecen. Con nuestras pólizas comerciales de vida, no solo inviertes en la protección de tus empleados, sino que también fortaleces el vínculo con ellos y construyes un ambiente laboral basado en la confianza y el compromiso mutuo. No esperes a que surja una emergencia para tomar medidas; protege el futuro de tu negocio y de tus empleados hoy mismo con nuestras pólizas comerciales de vida. Juntos, construyamos un mañana más seguro y próspero para todos.',
   }]
 
