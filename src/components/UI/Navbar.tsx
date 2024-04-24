@@ -25,7 +25,7 @@ export default function Appbar() {
  
   return (
     <>
-      <div className='hidden absolute z-20 top-0 bg-blue-500 text-white w-full h-auto px-4 py-2 sm:flex justify-around items-center  '>
+      <div className='hidden absolute z-20 top-0 bg-blue-800 text-white w-full h-auto px-4 py-2 sm:flex justify-around items-center  '>
         <Link href={`/`} className='w-auto h-[50px] flex justify-center items-center gap-3'>
             <div className='w-auto h-full'>
             <Image
@@ -49,7 +49,7 @@ export default function Appbar() {
             }
         </div>
       </div>
-      <div className='fixed z-20 p-4 w-full h-auto flex flex-col sm:hidden bg-blue-500 text-white'>
+      <div className='fixed z-20 p-4 w-full h-auto flex flex-col sm:hidden bg-blue-800 text-white'>
         <div className='w-full  h-[50px] flex justify-start items-center'>
           <Link href="/" className='w-full h-full flex justify-start items-center gap-3'>
             <div className='w-auto h-full'>
