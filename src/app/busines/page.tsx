@@ -54,7 +54,7 @@ export default function page() {
         <div className="relative w-full h-full z-10">
           <div className="absolute inset-0 bg-black opacity-60  z-10"></div>
           <div className="absolute inset-0 flex items-center justify-center text-center z-10">
-            <div className='px-4'>
+            <div className='px-4 md:px-16 lg:px-32 xl:px-64'>
               <h1 className="text-xl md:text-5xl font-bold mb-4 text-white">
                 Brindamos a cada cliente soluciones coherentes, integrales y responsables que aporten valor y contribuyan con su éxito
               </h1> 

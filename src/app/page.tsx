@@ -20,7 +20,7 @@ export default function page() {
     Descripcion:'Nuestras "Pólizas Comerciales" son fundamentales para proteger tu negocio y asegurar su continuidad en cualquier situación. Con nuestra cobertura completa, desde daños materiales hasta responsabilidad civil, te ofrecemos seguridad ante cualquier imprevisto. Además, nuestro equipo de expertos está disponible para brindarte el asesoramiento necesario. Protege tu inversión y concentra tu atención en hacer crecer tu empresa. ¡Confía en nosotros para garantizar el éxito y la tranquilidad de tu negocio!',
     Image:Image_2
   },{
-    Nombre:'Pólizas Comerciale de vida',
+    Nombre:'Pólizas de vida',
     Descripcion:'Las "Pólizas Comerciales de Vida" son esenciales para proteger el corazón de tu negocio y el bienestar de tus empleados. Con nuestra cobertura integral, ofrecemos seguridad en caso de eventualidades, como fallecimiento, invalidez y enfermedades graves. Al invertir en estas pólizas, no solo proteges a tus empleados, sino que también fortaleces el vínculo con ellos y creas un ambiente laboral basado en la confianza y el compromiso mutuo. No esperes a que surja una emergencia; protege el futuro de tu negocio y tus empleados hoy mismo. Juntos, construyamos un mañana más seguro y próspero para todos.',
     Image:Image_3
   }]
@@ -83,7 +83,7 @@ export default function page() {
           Servicios
         </h3>
         <br />
-        <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  px-4 md:px-16 lg:px-32'>
+        <div className='w-full h-auto flex flex-col gap-3 px-4 md:px-12 lg:px-20'>
           {
             ListServicios ? 
               ListServicios.map((data, index) => (
