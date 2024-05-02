@@ -78,7 +78,7 @@ export default function page() {
       <div className="relative w-full h-full">
         <div className="absolute inset-0 bg-black opacity-60 z-10" ></div>
         <div className="absolute inset-0 flex items-center justify-center z-10 text-center">
-          <div className='px-4'>
+          <div className='px-4 md:px-16 lg:px-32 xl:px-64'>
             <h1 className="text-xl md:text-5xl font-bold mb-4 text-white">
               Nosotros nos encargamos de que tu póliza <span className='text-blue-500'>cueste lo justo</span> 
             </h1> 

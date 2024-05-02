@@ -9,8 +9,8 @@ interface Props{
 
 export default function ServiceCard({ Nombre, Descripcion, ImageData }:Props) {
   return (
-    <div className='flex flex-col items-center justify-start w-full bg-white h-auto shadow shadow-black'>
-        <div className="w-full max-h-[380px]">
+    <div className='flex flex-col md:flex-row items-center justify-start w-full h-auto bg-white md:h-[300px] shadow shadow-black rounded-md'>
+        <div className="w-auto h-full">
             <Image
                 src={ImageData}
                 width={ImageData.width}
@@ -19,11 +19,11 @@ export default function ServiceCard({ Nombre, Descripcion, ImageData }:Props) {
                 alt="movie.title"
             />
         </div>
-        <div className="w-full h-auto flex flex-col p-4">
-            <h4 className="hover:text-cyan-700 flex justify-center items-center h-[50px] text-center text-black font-bold sm:text-2xl ">
+        <div className="w-full h-full flex flex-col justify-center p-4 gap-3">
+            <h4 className="text-2xl md:text-3xl lg:text-4xl font-bold text-start text-blue-500">
                 { Nombre }
             </h4>
-            <span className="w-full h-auto py-2 text-sm font-light text-black leading-relaxed">
+            <span className="text-base md:text-xl lg:text-base text-justify  ">
                 { Descripcion }
             </span>
         </div>
