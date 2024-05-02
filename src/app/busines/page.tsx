@@ -1,4 +1,4 @@
-import { Footer, Navbar, WhatsAppBtn } from '@/components'
+import { Footer, FormPolitics, Modal, Navbar, WhatsAppBtn } from '@/components'
 import Image from 'next/image'
 import React from 'react'
 
@@ -102,6 +102,9 @@ export default function page() {
         </div> 
         <WhatsAppBtn/>
         <Footer/>
+        <Modal>
+          <FormPolitics/>
+        </Modal>
     </main>
   )
 }

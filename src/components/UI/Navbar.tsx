@@ -16,6 +16,9 @@ export default function Appbar() {
         Name : "Inicio",
         Link: "/"
     },{
+      Name : "Politicas privacidad y seguridad",
+      Link: "/politics"
+    },{
         Name : "Quiénes Somos",
         Link: "/busines"
     },{

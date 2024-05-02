@@ -1,4 +1,4 @@
-import { Footer, Navbar, WhatsAppBtn } from '@/components'
+import { Footer, FormPolitics, Modal, Navbar, WhatsAppBtn } from '@/components'
 import React from 'react'
 
 import service_image from '../../../public/Backgrounds/pexels-kevinbidwell-2348359.jpg';
@@ -117,6 +117,9 @@ export default function page() {
       <br /> 
       <WhatsAppBtn/>
       <Footer/>
+      <Modal>
+        <FormPolitics/>
+      </Modal>
     </main>
   )
 }

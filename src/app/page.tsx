@@ -1,4 +1,4 @@
-import { Footer, Navbar, ServiceCard, WhatsAppBtn } from '@/components'
+import { Footer, FormPolitics, Modal, Navbar, ServiceCard, WhatsAppBtn } from '@/components'
 import Image from 'next/image'
 import React from 'react'
 
@@ -8,6 +8,7 @@ import truck_driver from './../../public/Backgrounds/pexels-quintingellar-219929
 import Image_1 from './../../public/Backgrounds/pexels-500photos-com-15338-93398.jpg'
 import Image_2 from './../../public/Backgrounds/pexels-kevinbidwell-2348359.jpg'
 import Image_3 from './../../public/Backgrounds/pexels-thatguycraig000-2449454.jpg'
+import Link from 'next/link';
 
 export default function page() {
 
@@ -100,6 +101,9 @@ export default function page() {
       <br />
       <WhatsAppBtn/>  
       <Footer/>
+      <Modal>
+        <FormPolitics/>
+      </Modal>
     </main>
   )
 }
